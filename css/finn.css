@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	
+}
+
+#fondo{
+	margin:auto;
+	width: 30%;
+	right: 50%;
+	border-style: solid;
+	border-color: orange;	
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10%;
+	background-color: black;
+
+}
+
+#cara{
+	margin: auto;
+	width: 150px;
+     height: 150px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: #f0ad4e;
+}
+
+.ojo{
+	margin: 26px;
+	padding:5px;
+	background-color: black;
+	display: inline-block;
+	width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+}
+
+#cabeza{
+	margin: auto;
+	width: 50%;
+	
+    padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10%;
+	background-color: white;
+}
+
+
+
+.orejas{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+    height: 20px;
+    border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+    border: 0px solid #555;
+    background: white;
+}
+
+#oreja-izquierda{
+	margin-left: 81px;
+}
+
+#oreja-derecha{
+	margin-left: 143px;
+}
+
+#boca{
+	margin: auto;
+	height: 3px;
+	width: 50%;
+	background-color: black;
+}
+
+
+#cuerpo{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding-top: 30%;
+	background-color: blue;
+}
+
+.brazo{
+	width: 50px;
+    height: 250px;
+    border: 0px solid #555;
+    background: #f0ad4e;
+}
+
+#izquierdo{
+	float: left;
+}
+
+#derecho{
+	float: right;
+}
